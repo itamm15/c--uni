@@ -43,9 +43,9 @@ namespace ZadaniaNaStudia
             {
                 for (int kolumny = 0; kolumny < liczbaKolumn; kolumny++)
                 {
+                    Console.WriteLine($"Podaj wartość [{wiersze}][{kolumny}]");
                     while (true)
                     {
-                        Console.WriteLine($"Podaj wartość [{wiersze}][{kolumny}]");
                         try
                         {
                             decimal index = Convert.ToDecimal(Console.ReadLine());
