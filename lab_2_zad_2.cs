@@ -2,7 +2,7 @@
 
 namespace ZadaniaNaStudia
 {
-    class Lab_2_zad_1
+    class Lab_2_zad_2
     {
         static void Main(string[] args)
         {
